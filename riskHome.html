@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">Risk Calculator</div>
+    <div class="subtitle" style="margin-top: 20px;">Buying Power</div>
+    <input type="number" value="500" id="buyingPower">
+    <div class="subtitle" style="margin-top: 20px;">Risk %</div>
+    <input type="number" value="2" id="riskPercent">
+    <div class="subtitle" style="margin-top: 20px;">Share Price</div>
+    <input type="number" id="sharePrice">
+    <div class="subtitle red" style="margin-top: 20px;">Stop Loss</div>
+    <input type="number" id="stopLoss">
+    <div class="subtitle" style="margin-top: 20px;" id="amountOfSharesDisplay">Amount of Shares:</div>
+    <div class="subtitle green" style="margin-top: 40px;" id="takeProfitDisplay">Take Profit:</div>
+    <button class="button" style="margin-top: 40px;" id="calculateButton">Calculate</button>
+</body>
+<script src="riskJS.js"></script>
+</html>
